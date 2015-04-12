@@ -74,6 +74,11 @@ CLLocationManager * LocationManager;
     Latitude = self.locationManager.location.coordinate.latitude;
 }
 
+-(void)displayPlace:(NSArray *)placemarks
+{
+    
+}
+
 -(void)displayError:(NSError*)error
 {
     dispatch_async(dispatch_get_main_queue(),^{
