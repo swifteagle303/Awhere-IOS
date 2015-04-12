@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0653E391AD9FA0B00F34ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0653E381AD9FA0B00F34ECB /* main.m */; };
+		F0653E3C1AD9FA0B00F34ECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0653E3B1AD9FA0B00F34ECB /* AppDelegate.m */; };
+		F0653E3F1AD9FA0B00F34ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0653E3E1AD9FA0B00F34ECB /* ViewController.m */; };
+		F0653E421AD9FA0B00F34ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0653E401AD9FA0B00F34ECB /* Main.storyboard */; };
+		F0653E441AD9FA0B00F34ECB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0653E431AD9FA0B00F34ECB /* Images.xcassets */; };
+		F0653E471AD9FA0B00F34ECB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0653E451AD9FA0B00F34ECB /* LaunchScreen.xib */; };
+		F0653E531AD9FA0B00F34ECB /* AwhereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0653E521AD9FA0B00F34ECB /* AwhereTests.m */; };
+		F0653E5D1AD9FAA900F34ECB /* _Awhere-logo-3-copy-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0653E5C1AD9FAA900F34ECB /* _Awhere-logo-3-copy-2.gif */; };
+		F0653E5F1ADA077F00F34ECB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0653E5E1ADA077F00F34ECB /* CoreLocation.framework */; };
+		F0653E611ADA2F3300F34ECB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0653E601ADA2F3300F34ECB /* MapKit.framework */; };
+		F0653E631ADA2F3800F34ECB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0653E621ADA2F3800F34ECB /* AddressBook.framework */; };
+		F0653E651ADA2F3E00F34ECB /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0653E641ADA2F3E00F34ECB /* AddressBookUI.framework */; };
+		F0653E671ADA2F4A00F34ECB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0653E661ADA2F4A00F34ECB /* UIKit.framework */; };
+		F0653E691ADA2F5200F34ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0653E681ADA2F5200F34ECB /* Foundation.framework */; };
+		F0653E6B1ADA2F5800F34ECB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0653E6A1ADA2F5800F34ECB /* CoreGraphics.framework */; };
+		F0653E6D1ADA407000F34ECB /* Textbox.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0653E6C1ADA407000F34ECB /* Textbox.gif */; };
+		F0653E6F1ADA4F2D00F34ECB /* google-campus-building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0653E6E1ADA4F2D00F34ECB /* google-campus-building.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0653E4D1AD9FA0B00F34ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0653E2B1AD9FA0B00F34ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0653E321AD9FA0B00F34ECB;
+			remoteInfo = Awhere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0653E331AD9FA0B00F34ECB /* Awhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Awhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0653E371AD9FA0B00F34ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0653E381AD9FA0B00F34ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0653E3A1AD9FA0B00F34ECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0653E3B1AD9FA0B00F34ECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0653E3D1AD9FA0B00F34ECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0653E3E1AD9FA0B00F34ECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0653E411AD9FA0B00F34ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0653E431AD9FA0B00F34ECB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0653E461AD9FA0B00F34ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F0653E4C1AD9FA0B00F34ECB /* AwhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0653E511AD9FA0B00F34ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0653E521AD9FA0B00F34ECB /* AwhereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwhereTests.m; sourceTree = "<group>"; };
+		F0653E5C1AD9FAA900F34ECB /* _Awhere-logo-3-copy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "_Awhere-logo-3-copy-2.gif"; sourceTree = "<group>"; };
+		F0653E5E1ADA077F00F34ECB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F0653E601ADA2F3300F34ECB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F0653E621ADA2F3800F34ECB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F0653E641ADA2F3E00F34ECB /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F0653E661ADA2F4A00F34ECB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0653E681ADA2F5200F34ECB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0653E6A1ADA2F5800F34ECB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0653E6C1ADA407000F34ECB /* Textbox.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Textbox.gif; sourceTree = "<group>"; };
+		F0653E6E1ADA4F2D00F34ECB /* google-campus-building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "google-campus-building.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0653E301AD9FA0B00F34ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0653E6B1ADA2F5800F34ECB /* CoreGraphics.framework in Frameworks */,
+				F0653E691ADA2F5200F34ECB /* Foundation.framework in Frameworks */,
+				F0653E671ADA2F4A00F34ECB /* UIKit.framework in Frameworks */,
+				F0653E651ADA2F3E00F34ECB /* AddressBookUI.framework in Frameworks */,
+				F0653E631ADA2F3800F34ECB /* AddressBook.framework in Frameworks */,
+				F0653E611ADA2F3300F34ECB /* MapKit.framework in Frameworks */,
+				F0653E5F1ADA077F00F34ECB /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0653E491AD9FA0B00F34ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0653E2A1AD9FA0B00F34ECB = {
+			isa = PBXGroup;
+			children = (
+				F0653E6A1ADA2F5800F34ECB /* CoreGraphics.framework */,
+				F0653E681ADA2F5200F34ECB /* Foundation.framework */,
+				F0653E661ADA2F4A00F34ECB /* UIKit.framework */,
+				F0653E641ADA2F3E00F34ECB /* AddressBookUI.framework */,
+				F0653E621ADA2F3800F34ECB /* AddressBook.framework */,
+				F0653E601ADA2F3300F34ECB /* MapKit.framework */,
+				F0653E5E1ADA077F00F34ECB /* CoreLocation.framework */,
+				F0653E351AD9FA0B00F34ECB /* Awhere */,
+				F0653E4F1AD9FA0B00F34ECB /* AwhereTests */,
+				F0653E341AD9FA0B00F34ECB /* Products */,
+				F0653E5C1AD9FAA900F34ECB /* _Awhere-logo-3-copy-2.gif */,
+				F0653E6C1ADA407000F34ECB /* Textbox.gif */,
+				F0653E6E1ADA4F2D00F34ECB /* google-campus-building.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		F0653E341AD9FA0B00F34ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0653E331AD9FA0B00F34ECB /* Awhere.app */,
+				F0653E4C1AD9FA0B00F34ECB /* AwhereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0653E351AD9FA0B00F34ECB /* Awhere */ = {
+			isa = PBXGroup;
+			children = (
+				F0653E3A1AD9FA0B00F34ECB /* AppDelegate.h */,
+				F0653E3B1AD9FA0B00F34ECB /* AppDelegate.m */,
+				F0653E3D1AD9FA0B00F34ECB /* ViewController.h */,
+				F0653E3E1AD9FA0B00F34ECB /* ViewController.m */,
+				F0653E401AD9FA0B00F34ECB /* Main.storyboard */,
+				F0653E431AD9FA0B00F34ECB /* Images.xcassets */,
+				F0653E451AD9FA0B00F34ECB /* LaunchScreen.xib */,
+				F0653E361AD9FA0B00F34ECB /* Supporting Files */,
+			);
+			path = Awhere;
+			sourceTree = "<group>";
+		};
+		F0653E361AD9FA0B00F34ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0653E371AD9FA0B00F34ECB /* Info.plist */,
+				F0653E381AD9FA0B00F34ECB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0653E4F1AD9FA0B00F34ECB /* AwhereTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0653E521AD9FA0B00F34ECB /* AwhereTests.m */,
+				F0653E501AD9FA0B00F34ECB /* Supporting Files */,
+			);
+			path = AwhereTests;
+			sourceTree = "<group>";
+		};
+		F0653E501AD9FA0B00F34ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0653E511AD9FA0B00F34ECB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0653E321AD9FA0B00F34ECB /* Awhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0653E561AD9FA0B00F34ECB /* Build configuration list for PBXNativeTarget "Awhere" */;
+			buildPhases = (
+				F0653E2F1AD9FA0B00F34ECB /* Sources */,
+				F0653E301AD9FA0B00F34ECB /* Frameworks */,
+				F0653E311AD9FA0B00F34ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Awhere;
+			productName = Awhere;
+			productReference = F0653E331AD9FA0B00F34ECB /* Awhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0653E4B1AD9FA0B00F34ECB /* AwhereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0653E591AD9FA0B00F34ECB /* Build configuration list for PBXNativeTarget "AwhereTests" */;
+			buildPhases = (
+				F0653E481AD9FA0B00F34ECB /* Sources */,
+				F0653E491AD9FA0B00F34ECB /* Frameworks */,
+				F0653E4A1AD9FA0B00F34ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0653E4E1AD9FA0B00F34ECB /* PBXTargetDependency */,
+			);
+			name = AwhereTests;
+			productName = AwhereTests;
+			productReference = F0653E4C1AD9FA0B00F34ECB /* AwhereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0653E2B1AD9FA0B00F34ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Blain VanNice";
+				TargetAttributes = {
+					F0653E321AD9FA0B00F34ECB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F0653E4B1AD9FA0B00F34ECB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F0653E321AD9FA0B00F34ECB;
+					};
+				};
+			};
+			buildConfigurationList = F0653E2E1AD9FA0B00F34ECB /* Build configuration list for PBXProject "Awhere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0653E2A1AD9FA0B00F34ECB;
+			productRefGroup = F0653E341AD9FA0B00F34ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0653E321AD9FA0B00F34ECB /* Awhere */,
+				F0653E4B1AD9FA0B00F34ECB /* AwhereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0653E311AD9FA0B00F34ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0653E421AD9FA0B00F34ECB /* Main.storyboard in Resources */,
+				F0653E6D1ADA407000F34ECB /* Textbox.gif in Resources */,
+				F0653E5D1AD9FAA900F34ECB /* _Awhere-logo-3-copy-2.gif in Resources */,
+				F0653E6F1ADA4F2D00F34ECB /* google-campus-building.jpg in Resources */,
+				F0653E471AD9FA0B00F34ECB /* LaunchScreen.xib in Resources */,
+				F0653E441AD9FA0B00F34ECB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0653E4A1AD9FA0B00F34ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0653E2F1AD9FA0B00F34ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0653E3F1AD9FA0B00F34ECB /* ViewController.m in Sources */,
+				F0653E3C1AD9FA0B00F34ECB /* AppDelegate.m in Sources */,
+				F0653E391AD9FA0B00F34ECB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0653E481AD9FA0B00F34ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0653E531AD9FA0B00F34ECB /* AwhereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0653E4E1AD9FA0B00F34ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0653E321AD9FA0B00F34ECB /* Awhere */;
+			targetProxy = F0653E4D1AD9FA0B00F34ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0653E401AD9FA0B00F34ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0653E411AD9FA0B00F34ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0653E451AD9FA0B00F34ECB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0653E461AD9FA0B00F34ECB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0653E541AD9FA0B00F34ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0653E551AD9FA0B00F34ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0653E571AD9FA0B00F34ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Awhere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0653E581AD9FA0B00F34ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Awhere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0653E5A1AD9FA0B00F34ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AwhereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awhere.app/Awhere";
+			};
+			name = Debug;
+		};
+		F0653E5B1AD9FA0B00F34ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AwhereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awhere.app/Awhere";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0653E2E1AD9FA0B00F34ECB /* Build configuration list for PBXProject "Awhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0653E541AD9FA0B00F34ECB /* Debug */,
+				F0653E551AD9FA0B00F34ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0653E561AD9FA0B00F34ECB /* Build configuration list for PBXNativeTarget "Awhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0653E571AD9FA0B00F34ECB /* Debug */,
+				F0653E581AD9FA0B00F34ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0653E591AD9FA0B00F34ECB /* Build configuration list for PBXNativeTarget "AwhereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0653E5A1AD9FA0B00F34ECB /* Debug */,
+				F0653E5B1AD9FA0B00F34ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0653E2B1AD9FA0B00F34ECB /* Project object */;
+}
